@@ -28,3 +28,27 @@ return (
 
 Question:
 How do you show the props value ? Using { props.name } etc.
+
+#CH 4: Creating & Understanding React 17 Project Architecture
+Syntax for creating a React App: npx create-react-app proj-name
+starting the application: yarn start
+
+React Project Structure:
+Public Folder: contains the main HTML file = index.html
+
+SRC folder:
+index.js = document.getElementById('root)
+App.js = where we implement the component
+
+JSX is the HTML you write inside the JS section.
+
+Relative / Interview Questions:
+
+1. How do you create a react app or react project ?
+   npx create-react-app project-name
+
+2. Where does the index.html reside in the default react project ?
+   Inside the public folder is where the index.html file resides.
+
+3. Explain the default project structure created by create-react-app ?
+   Public Folder => index.html = entry point
