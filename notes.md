@@ -73,3 +73,29 @@ Interview Questions.
 
 -   A component means it is a custom HTML. Props are the values you pass as attributes with the component. Props are immutable , you can not change the props. If there is a change you need State.
 -   Destructuring is a better way because the Object Literal will have mutiple data which can be organised.
+
+# CH6 - Concept of State & useState() Hook
+
+-If you have a value as a variable and not as a state then react will not watch for it.
+
+-   useState() Hook has a facility to create a state in React.
+-   useState(val1, val2) always returns an array with two elements.
+-   1. Value which we have given of the state.
+-   2. A function - which allows you to change the state value.
+-   React Hooks was introduced from React 16.8 onwards.
+
+-   State is like a variable that is being watched by the React application.
+-   If there are any changes made to the State, React will make sure that they are re-rendered.
+-   The changes are updating in the DOM as well.
+-   Directly taking a variable will not refresh/render it on a page but when taken as a state - then whatever changes are done to the state, those are automatically reflected on the user interface.
+-   State basically contain the data which changes and it is the data which the user sees.
+-   There might be differnt variables also which you can take but they do not affect the user interface. So we don't take those variables as states.
+-   States are also variables which are actually displayed on the UI so we take it with a specific syntax provided by React.
+-   We are using the functional component, so we are using the useState() Hook.
+-   useState() returns an array of two values [State value, Setter function]
+
+Interview Questions
+
+1. How do you create a state in a functional component ?
+   -When it comes to declaring state we use the useState() Hook
+2. Explain the purporse of useState() Hook
