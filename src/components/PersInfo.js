@@ -1,10 +1,10 @@
 import React from 'react';
 
-function PersInfo(props) {
+function PersInfo({ name, age }) {
 	return (
 		<div className="pers">
-			<h2>Name : {props.name}</h2>
-			<h2>Age : {props.age}</h2>
+			<h2>Name : {name}</h2>
+			<h2>Age : {age}</h2>
 		</div>
 	);
 }

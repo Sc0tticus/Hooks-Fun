@@ -52,3 +52,24 @@ Relative / Interview Questions:
 
 3. Explain the default project structure created by create-react-app ?
    Public Folder => index.html = entry point
+   src folder = index.js has the render of the App.js
+   App.js is the main app.
+
+#CH5 = Props Destructuring
+
+-   index.js has the App component getting rendered - which eventually is rendered in root division of index.html inside the public folder.
+
+-With a component based architecture you have a root component that gets rendered, and the rest of things will be part of the root component.
+
+PersInfo component lives inside App.js and has hard values as attributues.
+The parent component App.js is going to pass those hard cosed PersInfo attributes
+into the child component PersInfo as props.
+
+Destructuring = getting individual pieces from a data structure like arrays or object literals.
+
+Interview Questions.
+
+1. What is the props in a component ?
+
+-   A component means it is a custom HTML. Props are the values you pass as attributes with the component. Props are immutable , you can not change the props. If there is a change you need State.
+-   Destructuring is a better way because the Object Literal will have mutiple data which can be organised.
