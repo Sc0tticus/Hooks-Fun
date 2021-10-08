@@ -99,3 +99,14 @@ Interview Questions
 1. How do you create a state in a functional component ?
    -When it comes to declaring state we use the useState() Hook
 2. Explain the purporse of useState() Hook
+
+# CH7 - Lazy Initial State
+
+Whenever you have a bigger process which is going to give you the initial state value, & that you put it in a function - then instead of writing the function only - do make sure that your follow the lazy initialization.
+
+Chapter 7 Questions:
+
+1. Explain lazy initilization with useState() hook OR
+2. What exactly is lazy initilization ?
+
+-On every re-render the useState() hook is called and when you do not want to execute the initial methods, then you write a returning function inside useState() so that it does not call it on every re-render.
